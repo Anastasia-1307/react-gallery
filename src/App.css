@@ -1,0 +1,86 @@
+.img {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin:auto;
+       
+}
+
+.selected-image {
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 4px;
+   
+}
+
+.selected-border {
+  border: 5px solid green;
+  border-radius: 6px;
+}
+
+.gallery {
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  justify-content:center;
+
+}
+
+.imagebutton {
+border:none ;
+cursor:pointer;
+background-color: none;
+
+}
+  
+
+.display {
+width: 100px;
+height: 100px;
+object-fit: cover;
+border-radius: 5px;
+
+}
+
+
+
+.selected-image-container {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+}
+
+
+.selected-image-wrapper{
+  border: 5px solid green;
+  padding: 10px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.mybtn {
+  width: 20px;
+  height:20px;
+}
+
+.controls button:hover{
+  border-color: green;
+  
+}
+
+
+@media only screen and (min-width:400px) {}
+@media only screen and (max-width:480px) {}
+@media only screen and (max-width:600px) {}
+@media only screen and (max-width:900px) {}
+@media only screen and (max-width:992px) {}
+@media only screen and (max-width:1100px) {}
